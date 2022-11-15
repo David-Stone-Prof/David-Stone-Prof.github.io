@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Pebble Codes - Caffeine Tracker</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+      
+        <script src="https://use.fontawesome.com/5ac0a3ae64.js"></script>
+      
+        <link rel="shortcut icon" href="/images/pebblecodes-icon3.png" type="image/x-icon"/>
+      
+        <!--
+        <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="/css/caffeine_tracker_style.css">
+        Temporary reference for local development -->
+        <link rel="stylesheet" href="https://pebblecodes.com/css/style.css">
+        <link rel="stylesheet" href="temp_caffeine_tracker_style.css">
+      
+      </head>
+    <body>
+        <div class="wrapper">
+            <nav class="site-nav">
+              <h1 class="logo"><a id="logo" href="https://pebblecodes.com"><img src="/images/pebblecodes-text.png" alt="PebbleCodes"/></a></h1>
+    
+                <div class="menu-toggle">
+                  <div class="hamburger"></div>
+                </div>
+    
+                <ul class="open desktop">
+                    <li><a href="https://pebblecodes.com/"><i class="fa fa-home site-nav--icon"></i>Home</a></li>
+                    <li><a href="/projects" class="current"><i class="fa fa-code site-nav--icon"></i>Projects</a></li>
+                    <li><a href="/photos"><i class="fa fa-camera site-nav--icon"></i>Photography</a></li>
+                    <li><a href="/contact"><i class="fa fa-envelope site-nav--icon"></i>Contact Me</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <section id="main">
+            <div class="caffeinetracker">
+                <h1 title="Helps track your total caffeine intake for those who might overuse caffeine.">Caffeine Intake Tracker</h1>
+
+                <form>
+                    <h2>Current Caffeine Intake:</h2>
+                    <b id="mg"><div id="intake">0</div>mg</b>
+                    
+                    <input type="text" placeholder="Caffeine (mg)" id="caffeineInput" class="intakeClass">
+                    <button type="button" onclick="updateCaffeineIntake();">Add Caffeine</button>
+                </form>
+            </div>
+            <div class="halfLife">
+                <form>
+                    <h2>Estimated Caffeine in your System:</h2>
+                    <b id="mg"><div id="estimatedCaffeine">0</div>mg</b>
+                    <br/><br/>
+                    <button type="button" onclick="updateEstimatedCaffeineLeft();">Update Estimate</button>
+                </form>
+            </div>
+            <div class="history">
+                <h2 title="This is where the recorded entries are.">History</h2>
+                <ol>
+                    <div id="historyList" class="historyList">
+
+                    </div>
+                </ol>
+            </div>
+            <!-- 
+            <script src="/js/caffeine_tracker.js"></script>
+            Temporary reference for local development
+            -->
+            <script src="temp_caffeine_tracker.js"></script>
+            <script src="https://code.jquery.com/jquery-3.2.0.min.js"></script>
+            <script src="/js/index.js"></script>
+        </section>
+        
+    </body>
+    <footer class="footer-distributed-contact">
+        <div class="footer-right">
+            <a href="https://instagram.com/pebblebrz" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="https://github.com/Marker0829" target="_blank"><i class="fa fa-github"></i></a>
+            <a href="mailto:mark@pebblecodes.com"><i class="fa fa-at"></i></a>
+            <a href="https://www.linkedin.com/in/mark-stone-9ab0591a8" target="_blank"><i class="fa fa-linkedin"></i></a>
+        </div>
+        <div class="footer-left">
+            <p class="footer-links">
+                <a class="link-1" href="https://pebblecodes.com/">Home</a>
+                <a href="/projects">Projects</a>
+                <a href="/photos">Photography</a>
+                <a href="/contact">Contact Me</a>
+            </p>
+            <p>Pebble Codes &copy; 2022</p>
+        </div>
+      </footer>
+</html>
