@@ -15,7 +15,7 @@ body {
   font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-family: 'Montserrat', sans-serif; 
 	background: #f3f3f3;
-	color: #0f75bb;
+	color: #0039a6;
 }
 
 a {
@@ -72,7 +72,7 @@ img {
 }
 
 #main a {
-    color: #0f75bb;
+    color: #0039a6;
 }
 
 #main a:hover {
