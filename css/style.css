@@ -20,7 +20,7 @@ body {
 
 a {
 
-	color: #ffffff;
+	color: #7e7e7e;
 	text-decoration: none;
 	font-weight: bold;
 
@@ -362,8 +362,8 @@ nav {
 */
 
 .footer-distributed {
-  background-color: rgb(26, 54, 82);
-  box-shadow: 0 2px 0 rgb(42, 88, 134);
+  background-color: rgb(126, 126, 126);
+  box-shadow: 0 2px 0 rgb(0, 0, 0);
   box-sizing: border-box;
   width: 100%;
   text-align: left;
