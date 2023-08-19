@@ -127,7 +127,7 @@ header {
   letter-spacing: 3px;
   height: 65px;
   font-family: 'Unispace';
-  background-color: rgb(26, 54, 82);
+  background-color: rgb(126, 126, 126);
 }
 
 .logo span {
@@ -245,7 +245,7 @@ nav ul.opening {
 }
 
 nav li {
-  border-bottom: 2px solid rgb(26, 54, 82);
+  border-bottom: 2px solid rgb(126, 126, 126);
 }
 nav li:last-child {
   border-bottom: none;
@@ -268,7 +268,7 @@ nav a:focus {
 }
 
 .current {
-  color: #1982c9;
+  color: #ffffff;
   font-weight: 1000;
 }
 
@@ -568,7 +568,7 @@ nav {
        padding: 1.5em 1.3em 1.5em 1.3em;
        margin: 0;
        border: none;
-       background-color: rgb(26, 54, 82);
+       background-color: rgb(126, 126, 126);
     }
     nav a:hover,
     nav a:focus {
@@ -589,13 +589,13 @@ nav {
     max-width: 33%;
   }
 
-    nav {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      text-align: center;
-      background-color: rgb(26, 54, 82);
-    }
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    background-color: rgb(126, 126, 126);
+  }
   /* nav {
       flex: 1 1 0;
       -webkit-clip-path: none;
@@ -668,3 +668,5 @@ nav {
   font-size: 25px;
 }
 }
+
+#CharlesPictureMain {max-width: 50%; max-height: 50%;}
