@@ -14,13 +14,13 @@ body {
   line-height: 1.25em;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-family: 'Montserrat', sans-serif; 
-	background: #f3f3f3;
-	color: #7e7e7e;
+	background: #7e7e7e;
+	color: #000000;
 }
 
 a {
 
-	color: #7e7e7e;
+	color: #0f75bb;
 	text-decoration: none;
 	font-weight: bold;
 
@@ -28,7 +28,7 @@ a {
 
 a:hover {
 
-	color: #0f75bb;
+	color: #ffffff;
 
 }
 
@@ -72,11 +72,11 @@ img {
 }
 
 #main a {
-    color: #7e7e7e;
+    color: #e4e4e4;
 }
 
 #main a:hover {
-    color: #7e7e7e;
+    color: #eeff00;
 }
 
 .wrapper {
@@ -114,7 +114,12 @@ header {
 }
 
 .logo img {
-  max-width: 150px;
+  /* max-width: 150px; */
+  /* width: 100px; */
+  height: 45px;
+  display: inline-block;
+  margin: 0 auto;
+  /* height: 75%; */ 
 }
 
 .logo {
@@ -127,7 +132,7 @@ header {
   letter-spacing: 3px;
   height: 65px;
   font-family: 'Unispace';
-  background-color: rgb(126, 126, 126);
+  background-color: #001866);
 }
 
 .logo span {
@@ -252,7 +257,7 @@ nav li:last-child {
 }
 nav a {
   color: #f3f3f3;
-  background: rgb(126, 126, 126);
+  background: #eeea17;
   display: block;
   font-size: 1rem;
   font-weight: 1000;
@@ -280,7 +285,7 @@ nav a:focus {
   margin-right: 1em;
   width: 1.1em;
   text-align: right;
-  color: #FF0000;
+  color: #ffffff;
 }
 
 
@@ -486,7 +491,7 @@ nav {
 
 .footer-distributed-contact .footer-links a:before {
   content: "|";
-  font-size: 20px;
+  font-size: 25px;
   left: 0;
   color: rgb(37, 77, 117);
   display: inline-block;
@@ -568,7 +573,7 @@ nav {
        padding: 1.5em 1.3em 1.5em 1.3em;
        margin: 0;
        border: none;
-       background-color: rgb(126, 126, 126);
+       background-color: #001866;
     }
     nav a:hover,
     nav a:focus {
@@ -594,7 +599,7 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     text-align: center;
-    background-color: rgb(126, 126, 126);
+    background-color: #001866;
   }
   /* nav {
       flex: 1 1 0;
